@@ -1,4 +1,4 @@
-package app.vd.websocket;
+package app.eco.websocket;
 
 
 import com.alibaba.fastjson.JSONObject;
@@ -12,14 +12,14 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import app.vd.framework.extend.base.WXModuleBase;
+import app.eco.framework.extend.base.WXModuleBase;
 import okhttp3.OkHttpClient;
 import okhttp3.Response;
 import okio.ByteString;
 
-public class vdWebsocketModule extends WXModuleBase {
+public class ecoWebsocketModule extends WXModuleBase {
 
-    private String TAG = "vdWebsocketModule";
+    private String TAG = "ecoWebsocketModule";
 
     private WsManager socket;
 

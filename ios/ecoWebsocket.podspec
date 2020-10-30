@@ -4,20 +4,20 @@ Pod::Spec.new do |s|
 
 
 
-  s.name         = "vdWebsocket"
+  s.name         = "ecoWebsocket"
   s.version      = "1.0.0"
-  s.summary      = "vd plugin."
+  s.summary      = "eco plugin."
   s.description  = <<-DESC
-                    vd plugin.
+                    eco plugin.
                    DESC
 
-  s.homepage     = "https://vd.app"
+  s.homepage     = "https://eco.app"
   s.license      = "MIT"
   s.author             = { "ViewDesign" => "viewdesign@gmail.com" }
   s.source =  { :path => '.' }
-  s.source_files  = "vdWebsocket", "**/**/*.{h,m,mm,c}"
+  s.source_files  = "ecoWebsocket", "**/**/*.{h,m,mm,c}"
   s.exclude_files = "Source/Exclude"
-  s.resources = 'vdWebsocket/resources/image/**'
+  s.resources = 'ecoWebsocket/resources/image/**'
   s.platform     = :ios, "8.0"
   s.requires_arc = true
 

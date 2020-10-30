@@ -3,19 +3,19 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/websocket
+eco plugin install https://github.com/iecoe/websocket
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/websocket
+eco plugin uninstall https://github.com/iecoe/websocket
 ```
 
 ## 引用
 
 ```js
-const websocket = app.requireModule("vd/websocket");
+const websocket = app.requireModule("eco/websocket");
 ```
 
 ## 连接服务器

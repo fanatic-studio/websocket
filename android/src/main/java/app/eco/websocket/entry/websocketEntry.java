@@ -1,12 +1,12 @@
-package app.vd.websocket.entry;
+package app.eco.websocket.entry;
 
 import android.content.Context;
 
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.common.WXException;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import app.vd.websocket.vdWebsocketModule;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import app.eco.websocket.ecoWebsocketModule;
 
 @ModuleEntry
 public class websocketEntry {
@@ -18,7 +18,7 @@ public class websocketEntry {
     public void init(Context content) {
 
         try {
-            WXSDKEngine.registerModule("vdWebsocket", vdWebsocketModule.class);
+            WXSDKEngine.registerModule("ecoWebsocket", ecoWebsocketModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }
