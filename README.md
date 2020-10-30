@@ -3,13 +3,13 @@
 ## 安装
 
 ```shell script
-eco plugin install https://github.com/iecoe/websocket
+eco plugin install https://github.com/eco/websocket
 ```
 
 ## 卸载
 
 ```shell script
-eco plugin uninstall https://github.com/iecoe/websocket
+eco plugin uninstall https://github.com/eco/websocket
 ```
 
 ## 引用
